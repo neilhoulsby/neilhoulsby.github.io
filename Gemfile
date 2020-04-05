@@ -25,3 +25,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+gem "eventmachine", "~> 1.0.0"
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
