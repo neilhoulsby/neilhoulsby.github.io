@@ -1,17 +1,15 @@
 ---
 permalink: /
 title: "About"
-excerpt: "Where does this go"
+excerpt: "Academic Webpage for Neil Houlsby"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a Senior Research Scientist in the Google Brain team, Zurich. 
+I completed my PhD in the Cambridge CBL lab, with Zoubin Ghahramani, and Máté Lengyel. 
+I work on Machine Learning, and I am particularly interested in transfer learning, 
+representation learning, AutoML, generative models, and natural language processing.
 
 Publications
 ======
 
-Insert an image
-![Editing a markdown file for a talk](/images/editing-talk.png)
