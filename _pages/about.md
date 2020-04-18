@@ -5,11 +5,19 @@ excerpt: "Academic Webpage for Neil Houlsby"
 author_profile: true
 ---
 
-I am a Senior Research Scientist in the Google Brain team, Zurich. 
-I completed my PhD in the Cambridge CBL lab, with Zoubin Ghahramani, and Máté Lengyel. 
-I work on Machine Learning, and I am particularly interested in transfer learning, 
-representation learning, AutoML, generative models, and natural language processing.
+I am a Senior Research Scientist in the [Google Brain](https://research.google/teams/brain/) team.
+I have broad in interests in machine learning and artificial intelligence, with a particular focusses on scalable methods, vision, language, and generalization.
+
+
+Prior to joining Google, I received a PhD from the Cambridge [Computaqtional and Biological Learning lab](http://learning.eng.cam.ac.uk/Public/), supervised by Zoubin Ghahramani, and Máté Lengyel.
+My areas of study were Bayesian ML, active learning, and cognitive science.
+
 
 Publications
 ======
 
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
