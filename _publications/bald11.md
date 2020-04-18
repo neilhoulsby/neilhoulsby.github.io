@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/bald11
 date: 2011-12-16
 authors: 'Neil Houlsby, Ferenc Huszár, Zoubin Ghahramani, Máté Lengyel'
-venue: 'NIPS Workshop on Bayesian optimization, experimental design and bandits: Theory and applications 2011'
+venue: 'NIPS Workshop on Bayesian optimization, experimental design and bandits: Theory and applications'
 paperurl: 'https://arxiv.org/abs/1112.5745'
 ---
 
