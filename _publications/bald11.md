@@ -1,7 +1,7 @@
 ---
 title: 'Bayesian Active Learning for Gaussian Process Classification'
 collection: publications
-permalink: /publication/bald11
+permalink: /publications/bald11
 date: 2011-12-16
 authors: 'Neil Houlsby, Ferenc Huszár, Zoubin Ghahramani, Máté Lengyel'
 venue: 'NIPS Workshop on Bayesian optimization, experimental design and bandits: Theory and applications'

@@ -1,7 +1,7 @@
 ---
 title: 'Experimental Adaptive Bayesian Tomography'
 collection: publications
-permalink: /publication/experimental13
+permalink: /publications/experimental13
 date: 2013-06-28
 authors: 'Konstantin Kravtsov, Stanislav Straupe, Igor Radchenko, Gleb Struchalin, Neil Houlsby, Sergey Kulik'
 venue: 'Phyiscal Review A'

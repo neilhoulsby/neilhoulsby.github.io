@@ -1,7 +1,7 @@
 ---
 title: 'Ask the Right Questions: Active Question Reformulation with Reinforcement Learning'
 collection: publications
-permalink: /publication/aqa18.md
+permalink: /publications/aqa18.md
 date: 2018-05-30
 authors: 'Christian Buck, Jannis Bulian, Massimiliano Ciaramita, Wojciech Gajewski, Andrea Gesmundo, Neil Houlsby, Wei Wang'
 venue: 'International Conference on Learning Representations (ICLR)'

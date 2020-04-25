@@ -1,7 +1,7 @@
 ---
 title: 'On Self Modulation for Generative Adversarial Networks'
 collection: publications
-permalink: /publication/selfmod19
+permalink: /publications/selfmod19
 date: 2019-05-06
 authors: 'Ting Chen, Mario Lucic, Neil Houlsby, Sylvain Gelly'
 venue: 'International Conference on Learning Representations (ICLR)'

@@ -1,7 +1,7 @@
 ---
 title: 'Probabilistic Matrix Factorization with Non-random Missing Data'
 collection: publications
-permalink: /publication/mnar14
+permalink: /publications/mnar14
 date: 2014-06-21
 authors: 'José Miguel Hernández-Lobato, Neil Houlsby, Zoubin Ghahramani'
 venue: 'International Conference on Machine Learning (ICML)'

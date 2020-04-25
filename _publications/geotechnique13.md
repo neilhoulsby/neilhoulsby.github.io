@@ -1,7 +1,7 @@
 ---
 title: 'Statistical Fitting of Undrained Strength Data'
 collection: publications
-permalink: /publication/geotechnique
+permalink: /publications/geotechnique
 date: 2013-11-01
 authors: 'Neil Houlsby, Guy Houlsby'
 venue: 'Géotechnique'

@@ -1,7 +1,7 @@
 ---
 title: 'A Filtering Approach to Stochastic Variational Inference'
 collection: publications
-permalink: /publication/filtering14
+permalink: /publications/filtering14
 date: 2014-12-08
 authors: 'Neil Houlsby, David Blei'
 venue: 'Neural Information Processing Systems (NeurIPS)'

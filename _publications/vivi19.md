@@ -1,10 +1,10 @@
 ---
 title: 'Self-Supervised Learning of Video-Induced Visual Invariances'
 collection: publications
-permalink: /publication/vivi19
-date: 2019-12-05
+permalink: /publications/vivi20
+date: 2020-01-01
 authors: 'Michael Tschannen, Josip Djolonga, Marvin Ritter, Aravindh Mahendran, Xiaohua Zhai, Neil Houlsby, Sylvain Gelly, Mario Lucic'
-venue: 'arXiv Preprint'
+venue: 'To Appear: Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/abs/1912.02783'
 ---
 

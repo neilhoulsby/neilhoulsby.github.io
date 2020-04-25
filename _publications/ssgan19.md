@@ -1,7 +1,7 @@
 ---
 title: 'Self-Supervised GANs via Auxiliary Rotation Loss'
 collection: publications
-permalink: /publication/ssgan19
+permalink: /publications/ssgan19
 date: 2019-06-16
 authors: 'Ting Chen, Xiaohua Zhai, Marvin Ritter, Mario Lucic, Neil Houlsby'
 venue: 'Computer Vision and Pattern Recognition (CVPR)'

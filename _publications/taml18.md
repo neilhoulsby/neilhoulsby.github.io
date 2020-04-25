@@ -1,7 +1,7 @@
 ---
 title: 'Transfer Learning with Neural AutoML'
 collection: publications
-permalink: /publication/taml18
+permalink: /publications/taml18
 date: 2018-12-03
 authors: 'Catherine Wong, Neil Houlsby, Yifeng Lu, Andrea Gesmundo'
 venue: 'Neural Information Processing Systems (NeurIPS)'

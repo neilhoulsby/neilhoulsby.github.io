@@ -1,7 +1,7 @@
 ---
 title: 'Cold-start Active Learning with Robust Ordinal Matrix Factorization'
 collection: publications
-permalink: /publication/coldstart14
+permalink: /publications/coldstart14
 date: 2014-06-21
 authors: 'Cold-start Active Learning with Robust Ordinal Matrix Factorization'
 venue: 'International Conference on Machine Learning (ICML)'

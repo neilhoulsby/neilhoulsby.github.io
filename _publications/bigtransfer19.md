@@ -1,7 +1,7 @@
 ---
 title: 'Big Transfer (BiT): General Visual Representation Learning'
 collection: publications
-permalink: /publication/bigtransfer19
+permalink: /publications/bigtransfer19
 date: 2019-12-24
 authors: 'Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby'
 venue: 'arXiv Preprint'

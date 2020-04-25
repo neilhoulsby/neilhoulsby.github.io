@@ -1,7 +1,7 @@
 ---
 title: 'Parameter-Efficient Transfer Learning for NLP'
 collection: publications
-permalink: /publication/parameter19
+permalink: /publications/parameter19
 date: 2019-06-09
 authors: 'Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly'
 venue: 'International Conference on Machine Learning (ICML)'

@@ -1,7 +1,7 @@
 ---
 title: 'A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark'
 collection: publications
-permalink: /publication/vtab19
+permalink: /publications/vtab19
 date: 2019-10-01
 authors: 'Xiaohua Zhai, Joan Puigcerver, Alexander Kolesnikov, Pierre Ruyssen, Carlos Riquelme, Mario Lucic, Josip Djolonga, Andre Susano Pinto, Maxim Neumann, Alexey Dosovitskiy, Lucas Beyer, Olivier Bachem, Michael Tschannen, Marcin Michalski, Olivier Bousquet, Sylvain Gelly, Neil Houlsby'
 venue: 'arXiv Preprint'

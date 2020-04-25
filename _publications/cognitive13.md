@@ -1,7 +1,7 @@
 ---
 title: 'Cognitive Tomography Reveals Complex Task-Independent Mental Representations'
 collection: publications
-permalink: /publication/cognitive13
+permalink: /publications/cognitive13
 date: 2013-10-24
 authors: 'Neil Houlsby, Ferenc Huszár, Mohammad Ghassemi, Gergő Orbán, Daniel Wolpert, Máté Lengyel'
 venue: 'Current Biology'

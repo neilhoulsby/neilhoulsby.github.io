@@ -1,7 +1,7 @@
 ---
 title: 'Adaptive Bayesian Quantum Tomography'
 collection: publications
-permalink: /publication/quantum12
+permalink: /publications/quantum12
 date: 2012-05-22
 authors: 'Ferenc Huszár, Neil Houlsby'
 venue: 'Physical Review A'

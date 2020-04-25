@@ -1,7 +1,7 @@
 ---
 title: 'Collaborative Gaussian Processes for Preference Learning'
 collection: publications
-permalink: /publication/preference12
+permalink: /publications/preference12
 date: 2012-12-03
 authors: 'Neil Houlsby, Ferenc Huszár, Jose M. Hernández-lobato, Zoubin Ghahramani'
 venue: 'Neural Information Processing Systems (NeurIPS)'

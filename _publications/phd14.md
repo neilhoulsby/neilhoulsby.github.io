@@ -1,7 +1,7 @@
 ---
 title: 'Efficient Bayesian Active Learning and Matrix Modelling'
 collection: publications
-permalink: /publication/phd14
+permalink: /publications/phd14
 date: 2014-11-11
 authors: 'Neil Houlsby'
 venue: 'Doctor of Philosophy (PhD), University of Cambridge'

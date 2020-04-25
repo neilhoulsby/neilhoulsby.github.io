@@ -1,7 +1,7 @@
 ---
 title: 'Active learning for Interactive Visualization'
 collection: publications
-permalink: /publication/visualization13
+permalink: /publications/visualization13
 date: 2013-05-29
 authors: 'Tomoharu Iwata, Neil Houlsby, Zoubin Ghahramani'
 venue: 'International Conference on AI and Statistics (AISTATS)'

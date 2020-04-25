@@ -1,11 +1,11 @@
 ---
 title: 'A Scalable Gibbs Sampler for Probabilistic Entity Linking'
 collection: publications
-permalink: /publication/entity14
+permalink: /publications/entity14
 date: 2014-04-16
 authors: 'Neil Houlsby, Massimiliano Ciaramita'
 venue: 'European Conference on Information Retrieval (ECIR)'
-paperurl: 'https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42453.pdf'
+paperurl: 'https://static.googleusercontent.com/media/research.google.com/en/pubs/archive/42453.pdf'
 ---
 
 Entity linking involves labeling phrases in text with their
