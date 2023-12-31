@@ -39,6 +39,6 @@ html = main_template.render(
     profile_picture="profile.jpg",
 )
 
-output_file = "_output.html"
+output_file = "index.html"
 with open(output_file, "w", encoding="utf-8") as file:
     file.write(html)
