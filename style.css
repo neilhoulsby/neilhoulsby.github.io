@@ -116,6 +116,7 @@ section {
 }
 
 .contact-social-links a:hover {
+  color: #d21846;
   text-decoration: underline;
 }
 
@@ -153,6 +154,7 @@ section {
   max-height: 100%;
   object-fit: cover;
   height: auto;
+  border-radius: 4px;
 }
 
 .overlay-text {
@@ -171,6 +173,7 @@ section {
   box-sizing: border-box;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  border-radius: 4px;
 }
 
 .image-container:hover .overlay-text {

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/soft23
 date: 2023-08-23
 authors: 'Joan Puigcerver, Carlos Riquelme, Basil Mustafa, Neil Houlsby'
-venue: 'arXiv'
+venue: 'International Conference on Learning Representations (ICLR), 2024 [spotlight]'
 paperurl: 'https://arxiv.org/abs/2308.00951'
 ---
 

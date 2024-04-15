@@ -15,11 +15,11 @@
 <body class="content-container">
 
   <div class="profile-section">
-    <img src="profile.jpg" alt="Profile Picture">
+    <img src="img/profile.jpg" alt="Profile Picture">
     <p>Senior Staff Research Scientist at Google Deepmind.</p>
 <p>Leads a Computer Vision group located in Zürich and Amsterdam.</p>
     <div class="contact-social-links">
-      <a href="mailto:neilhoulsby@google.com">neilhoulsby@google.com</a>
+      <a href="#" onclick="copyToClipboard('neilhoulsby@google.com')">neilhoulsby@google.com</a>
       <a href="https://twitter.com/neilhoulsby" target="_blank">Twitter</a>
       <a href="https://scholar.google.com/citations?user=sm1-TZMAAAAJ" target="_blank">GScholar</a>
     </div>
@@ -28,10 +28,9 @@
   <main>
     <article id="about">
       <h2>About</h2>
-      <p>I am a Senior Staff Research Scientist in the Google Deepmind (formerly, Google Brain), based in Zürich. 
-I work in machine learning and artificial intelligence, with a focus on vision-language models, scalability, computer vision, pre-training, and transfer learning.</p>
+      <p>I am a Senior Staff Research Scientist and manager in the Google Deepmind (previously, Google Brain), in Zürich. 
+I work in machine learning and artificial intelligence, with a focus on vision-language models (VLMs), scalable pre-training, sparsity, modularity, and task adaptation.</p>
 <p>Prior to Google, I received my PhD from the Cambridge Computational and Biological Learning lab, supervised by Zoubin Ghahramani and Máté Lengyel. My areas of study were Bayesian ML, active learning, and cognitive science.</p>
-<p>I am a hiring manager in Google Deepmind EMEA, if you have a strong background in machine learning and/or computer vision, feel free to reach out.</p>
     </article>
 
 
@@ -41,19 +40,19 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
         <div class="image-row">
           <div class="image-container">
             <a href="#vit20">
-              <img src="vit.png" alt="Image 1">
+              <img src="img/vit.png" alt="ViT figure">
               <span class="overlay-text">Vision Transformers</span>
             </a>
           </div>
           <div class="image-container">
             <a href="#mixer21">
-              <img src="mixer.png" alt="Image 2">
+              <img src="img/mixer.png" alt="Mixer figure">
               <span class="overlay-text">MLP Mixer</span>
             </a>
           </div>
           <div class="image-container">
             <a href="#pali22">
-              <img src="pali.png" alt="Image 3">
+              <img src="img/pali.png" alt="PaLI figure">
               <span class="overlay-text">PaLI Vision-Language Model</span>
             </a>
           </div>
@@ -62,19 +61,19 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
         <div class="image-row">
           <div class="image-container">
             <a href="#parameter19">
-              <img src="adapters.png" alt="Image 4">
+              <img src="img/adapters.png" alt="Adpaters figure">
               <span class="overlay-text">Parameter-efficient Adapter Layers</span>
             </a>
           </div>
           <div class="image-container">
             <a href="#bigtransfer19">
-              <img src="bit.png" alt="Image 5">
+              <img src="img/bit.png" alt="BiT figure">
               <span class="overlay-text">Big Transfer</span>
             </a>
           </div>
           <div class="image-container">
             <a href="#bald11">
-              <img src="bald.png" alt="Image 6">
+              <img src="img/bald.png" alt="BALD figure">
               <span class="overlay-text">Bayesian Active Learning with Disagreement</span>
             </a>
           </div>
@@ -87,8 +86,21 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
       <h2>All Publications</h2>
       <div>
         
+        <article id="frofa24">
+  <h3 class="all-caps">1. Frozen Feature Augmentation for Few-Shot Image Classification</h3>
+  <p><strong>Authors:</strong> Andreas Bär, Neil Houlsby, Mostafa Dehghani, Manoj Kumar</p>
+  <p><strong>First appeared:</strong> 2024-03-15</p>
+  <p><strong>Venue:</strong> Computer Vision and Pattern Recognition (CVPR), 2024</p>
+  <p><a href="https://arxiv.org/abs/2403.10519" target="_blank">Full paper</a></p>
+  <div class="abstract-toggle" onclick="toggleAbstract(this)">
+    <span class="arrow">&#x25BA;</span> Abstract
+  </div>
+  <p class="abstract" style="display:none;">Training a linear classifier or lightweight model on top of pretrained vision model outputs, so-called 'frozen features', leads to impressive performance on a number of downstream few-shot tasks. Currently, frozen features are not modified during training. On the other hand, when networks are trained directly on images, data augmentation is a standard recipe that improves performance with no substantial overhead. In this paper, we conduct an extensive pilot study on few-shot image classification that explores applying data augmentations in the frozen feature space, dubbed 'frozen feature augmentation (FroFA)', covering twenty augmentations in total. Our study demonstrates that adopting a deceptively simple pointwise FroFA, such as brightness, can improve few-shot performance consistently across three network architectures, three large pretraining datasets, and eight transfer datasets.</p>
+</article>
+<hr>
+        
         <article id="gemini23">
-  <h3 class="all-caps">Gemini: A Family of Highly Capable Multimodal Models</h3>
+  <h3 class="all-caps">2. Gemini: A Family of Highly Capable Multimodal Models</h3>
   <p><strong>Authors:</strong> Gemini Team Google</p>
   <p><strong>First appeared:</strong> 2023-12-19</p>
   <p><strong>Venue:</strong> arXiv</p>
@@ -101,10 +113,10 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="sparse23">
-  <h3 class="all-caps">Scaling Laws for Sparsely-Connected Foundation Models</h3>
+  <h3 class="all-caps">3. Scaling Laws for Sparsely-Connected Foundation Models</h3>
   <p><strong>Authors:</strong> Elias Frantar, Carlos Riquelme, Neil Houlsby, Dan Alistarh, Utku Evci</p>
   <p><strong>First appeared:</strong> 2023-09-15</p>
-  <p><strong>Venue:</strong> arXiv</p>
+  <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2024 [spotlight]</p>
   <p><a href="https://arxiv.org/abs/2309.08520" target="_blank">Full paper</a></p>
   <div class="abstract-toggle" onclick="toggleAbstract(this)">
     <span class="arrow">&#x25BA;</span> Abstract
@@ -114,10 +126,10 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="soft23">
-  <h3 class="all-caps">From Sparse to Soft Mixtures of Experts</h3>
+  <h3 class="all-caps">4. From Sparse to Soft Mixtures of Experts</h3>
   <p><strong>Authors:</strong> Joan Puigcerver, Carlos Riquelme, Basil Mustafa, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2023-08-23</p>
-  <p><strong>Venue:</strong> arXiv</p>
+  <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2024 [spotlight]</p>
   <p><a href="https://arxiv.org/abs/2308.00951" target="_blank">Full paper</a></p>
   <div class="abstract-toggle" onclick="toggleAbstract(this)">
     <span class="arrow">&#x25BA;</span> Abstract
@@ -127,7 +139,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="navit23">
-  <h3 class="all-caps">Patch n' Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution</h3>
+  <h3 class="all-caps">5. Patch n' Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution</h3>
   <p><strong>Authors:</strong> Mostafa Dehghani, Basil Mustafa, Josip Djolonga, Jonathan Heek, Matthias Minderer, Mathilde Caron, Andreas Steiner, Joan Puigcerver, Robert Geirhos, Ibrahim Alabdulmohsin, Avital Oliver, Piotr Padlewski, Alexey Gritsenko, Mario Lučić, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2023-07-12</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2023</p>
@@ -140,7 +152,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="owlvit223">
-  <h3 class="all-caps">Scaling Open-Vocabulary Object Detection</h3>
+  <h3 class="all-caps">6. Scaling Open-Vocabulary Object Detection</h3>
   <p><strong>Authors:</strong> Scaling Open-Vocabulary Object Detection</p>
   <p><strong>First appeared:</strong> 2023-06-16</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2022 [spotlight]</p>
@@ -153,7 +165,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="cappa23">
-  <h3 class="all-caps">Image Captioners Are Scalable Vision Learners Too</h3>
+  <h3 class="all-caps">7. Image Captioners Are Scalable Vision Learners Too</h3>
   <p><strong>Authors:</strong> Michael Tschannen, Manoj Kumar, Andreas Steiner, Xiaohua Zhai, Neil Houlsby, Lucas Beyer</p>
   <p><strong>First appeared:</strong> 2023-06-13</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2023 [oral]</p>
@@ -166,10 +178,10 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="palix23">
-  <h3 class="all-caps">PaLI-X: On Scaling up a Multilingual Vision and Language Model</h3>
+  <h3 class="all-caps">8. PaLI-X: On Scaling up a Multilingual Vision and Language Model</h3>
   <p><strong>Authors:</strong> Xi Chen, Josip Djolonga, Piotr Padlewski, Basil Mustafa, Soravit Changpinyo, Jialin Wu, Carlos Riquelme Ruiz, Sebastian Goodman, Xiao Wang, Yi Tay, Siamak Shakeri, Mostafa Dehghani, Daniel Salz, Mario Lucic, Michael Tschannen, Arsha Nagrani, Hexiang Hu, Mandar Joshi, Bo Pang, Ceslee Montgomery, Paulina Pietrzyk, Marvin Ritter, AJ Piergiovanni, Matthias Minderer, Filip Pavetic, Austin Waters, Gang Li, Ibrahim Alabdulmohsin, Lucas Beyer, Julien Amelot, Kenton Lee, Andreas Peter Steiner, Yang Li, Daniel Keysers, Anurag Arnab, Yuanzhong Xu, Keran Rong, Alexander Kolesnikov, Mojtaba Seyedhosseini, Anelia Angelova, Xiaohua Zhai, Neil Houlsby, Radu Soricut</p>
   <p><strong>First appeared:</strong> 2023-05-29</p>
-  <p><strong>Venue:</strong> arXiv</p>
+  <p><strong>Venue:</strong> Computer Vision and Pattern Recognition (CVPR), 2024</p>
   <p><a href="https://arxiv.org/abs/2305.18565" target="_blank">Full paper</a></p>
   <div class="abstract-toggle" onclick="toggleAbstract(this)">
     <span class="arrow">&#x25BA;</span> Abstract
@@ -179,7 +191,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="vit22b23">
-  <h3 class="all-caps">Scaling Vision Transformers to 22 Billion Parameters</h3>
+  <h3 class="all-caps">9. Scaling Vision Transformers to 22 Billion Parameters</h3>
   <p><strong>Authors:</strong> Mostafa Dehghani, Josip Djolonga, Basil Mustafa, Piotr Padlewski, Jonathan Heek, Justin Gilmer, Andreas Steiner, Mathilde Caron, Robert Geirhos, Ibrahim Alabdulmohsin, Rodolphe Jenatton, Lucas Beyer, Michael Tschannen, Anurag Arnab, Xiao Wang, Carlos Riquelme, Matthias Minderer, Joan Puigcerver, Utku Evci, Manoj Kumar, Sjoerd van Steenkiste, Gamaleldin F. Elsayed, Aravindh Mahendran, Fisher Yu, Avital Oliver, Fantine Huot, Jasmijn Bastings, Mark Patrick Collier, Alexey Gritsenko, Vighnesh Birodkar, Cristina Vasconcelos, Yi Tay, Thomas Mensink, Alexander Kolesnikov, Filip Pavetić, Dustin Tran, Thomas Kipf, Mario Lučić, Xiaohua Zhai, Daniel Keysers, Jeremiah Harmsen, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2023-02-10</p>
   <p><strong>Venue:</strong> International Conference on Machine Learning (ICML), 2023 [oral]</p>
@@ -192,7 +204,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="dpn23">
-  <h3 class="all-caps">Dual PatchNorm</h3>
+  <h3 class="all-caps">10. Dual PatchNorm</h3>
   <p><strong>Authors:</strong> Manoj Kumar, Mostafa Dehghani, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2023-02-02</p>
   <p><strong>Venue:</strong> Transactions on Machine Learning Research (TMLR)</p>
@@ -205,7 +217,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="adatape23">
-  <h3 class="all-caps">Adaptive Computation with Elastic Input Sequence</h3>
+  <h3 class="all-caps">11. Adaptive Computation with Elastic Input Sequence</h3>
   <p><strong>Authors:</strong> Fuzhao Xue, Valerii Likhosherstov, Anurag Arnab, Neil Houlsby, Mostafa Dehghani, Yang You</p>
   <p><strong>First appeared:</strong> 2023-01-30</p>
   <p><strong>Venue:</strong> International Conference on Machine Learning (ICML), 2023</p>
@@ -218,7 +230,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="hetxl23">
-  <h3 class="all-caps">Massively Scaling Heteroscedastic Classifiers</h3>
+  <h3 class="all-caps">12. Massively Scaling Heteroscedastic Classifiers</h3>
   <p><strong>Authors:</strong> Mark Collier, Rodolphe Jenatton, Basil Mustafa, Neil Houlsby, Jesse Berent, Effrosyni Kokiopoulou</p>
   <p><strong>First appeared:</strong> 2023-01-30</p>
   <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2023</p>
@@ -231,7 +243,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="clippo22">
-  <h3 class="all-caps">CLIPPO: Image-and-Language Understanding from Pixels Only</h3>
+  <h3 class="all-caps">13. CLIPPO: Image-and-Language Understanding from Pixels Only</h3>
   <p><strong>Authors:</strong> Michael Tschannen, Basil Mustafa, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2022-12-15</p>
   <p><strong>Venue:</strong> Computer Vision and Pattern Recognition (CVPR), 2023</p>
@@ -244,7 +256,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="upcycling22">
-  <h3 class="all-caps">Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints</h3>
+  <h3 class="all-caps">14. Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints</h3>
   <p><strong>Authors:</strong> Aran Komatsuzaki, Joan Puigcerver, James Lee-Thorp, Carlos Riquelme Ruiz, Basil Mustafa, Joshua Ainslie, Yi Tay, Mostafa Dehghani, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2022-12-09</p>
   <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2023</p>
@@ -257,7 +269,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="loca22">
-  <h3 class="all-caps">Location-Aware Self-Supervised Transformers for Semantic Segmentation</h3>
+  <h3 class="all-caps">15. Location-Aware Self-Supervised Transformers for Semantic Segmentation</h3>
   <p><strong>Authors:</strong> Mathilde Caron, Neil Houlsby, Cordelia Schmid</p>
   <p><strong>First appeared:</strong> 2022-12-05</p>
   <p><strong>Venue:</strong> IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023 [oral]</p>
@@ -270,7 +282,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="transcending22">
-  <h3 class="all-caps">Transcending Scaling Laws with 0.1% Extra Compute</h3>
+  <h3 class="all-caps">16. Transcending Scaling Laws with 0.1% Extra Compute</h3>
   <p><strong>Authors:</strong> Yi Tay, Jason Wei, Hyung Won Chung, Vinh Q. Tran, David R. So, Siamak Shakeri, Xavier Garcia, Huaixiu Steven Zheng, Jinfeng Rao, Aakanksha Chowdhery, Denny Zhou, Donald Metzler, Slav Petrov, Neil Houlsby, Quoc V. Le, Mostafa Dehghani</p>
   <p><strong>First appeared:</strong> 2022-10-20</p>
   <p><strong>Venue:</strong> IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021</p>
@@ -283,7 +295,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="pali22">
-  <h3 class="all-caps">PaLI: A Jointly-Scaled Multilingual Language-Image Model</h3>
+  <h3 class="all-caps">17. PaLI: A Jointly-Scaled Multilingual Language-Image Model</h3>
   <p><strong>Authors:</strong> Xi Chen, Xiao Wang, Soravit Changpinyo, AJ Piergiovanni, Piotr Padlewski, Daniel Salz, Sebastian Goodman, Adam Grycner, Basil Mustafa, Lucas Beyer, Alexander Kolesnikov, Joan Puigcerver, Nan Ding, Keran Rong, Hassan Akbari, Gaurav Mishra, Linting Xue, Ashish Thapliyal, James Bradbury, Weicheng Kuo, Mojtaba Seyedhosseini, Chao Jia, Burcu Karagol Ayan, Carlos Riquelme, Andreas Steiner, Anelia Angelova, Xiaohua Zhai, Neil Houlsby, Radu Soricut</p>
   <p><strong>First appeared:</strong> 2022-09-14</p>
   <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2023 [notable-top-5%]</p>
@@ -296,7 +308,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="limoe22">
-  <h3 class="all-caps">Multimodal Contrastive Learning with LIMoE: the Language-Image Mixture of Experts</h3>
+  <h3 class="all-caps">18. Multimodal Contrastive Learning with LIMoE: the Language-Image Mixture of Experts</h3>
   <p><strong>Authors:</strong> Basil Mustafa, Carlos Riquelme, Joan Puigcerver, Rodolphe Jenatton, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2022-06-06</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2022</p>
@@ -309,7 +321,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="uvim22">
-  <h3 class="all-caps">UViM: A Unified Modeling Approach for Vision with Learned Guiding Codes</h3>
+  <h3 class="all-caps">19. UViM: A Unified Modeling Approach for Vision with Learned Guiding Codes</h3>
   <p><strong>Authors:</strong> Alexander Kolesnikov, André Susano Pinto, Lucas Beyer, Xiaohua Zhai, Jeremiah Harmsen, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2022-05-20</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2022</p>
@@ -322,7 +334,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="remedis22">
-  <h3 class="all-caps">Robust and Efficient Medical Imaging with Self-Supervision</h3>
+  <h3 class="all-caps">20. Robust and Efficient Medical Imaging with Self-Supervision</h3>
   <p><strong>Authors:</strong> Shekoofeh Azizi, Laura Culp, Jan Freyberg, Basil Mustafa, Sebastien Baur, Simon Kornblith, Ting Chen, Patricia MacWilliams, S. Sara Mahdavi, Ellery Wulczyn, Boris Babenko, Megan Wilson, Aaron Loh, Po-Hsuan Cameron Chen, Yuan Liu, Pinal Bavishi, Scott Mayer McKinney, Jim Winkens, Abhijit Guha Roy, Zach Beaver, Fiona Ryan, Justin Krogue, Mozziyar Etemadi, Umesh Telang, Yun Liu, Lily Peng, Greg S. Corrado, Dale R. Webster, David Fleet, Geoffrey Hinton, Neil Houlsby, Alan Karthikesalingam, Mohammad Norouzi, Vivek Natarajan</p>
   <p><strong>First appeared:</strong> 2022-05-19</p>
   <p><strong>Venue:</strong> Nature Biomedical Engineering</p>
@@ -335,7 +347,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="owlvit22">
-  <h3 class="all-caps">Simple Open-Vocabulary Object Detection with Vision Transformers</h3>
+  <h3 class="all-caps">21. Simple Open-Vocabulary Object Detection with Vision Transformers</h3>
   <p><strong>Authors:</strong> Matthias Minderer, Alexey Gritsenko, Austin Stone, Maxim Neumann, Dirk Weissenborn, Alexey Dosovitskiy, Aravindh Mahendran, Anurag Arnab, Mostafa Dehghani, Zhuoran Shen, Xiao Wang, Xiaohua Zhai, Thomas Kipf, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2022-05-12</p>
   <p><strong>Venue:</strong> European Conference on Computer Vision (ECCV), 2020</p>
@@ -348,7 +360,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="ull22">
-  <h3 class="all-caps">Unifying Language Learning Paradigms</h3>
+  <h3 class="all-caps">22. Unifying Language Learning Paradigms</h3>
   <p><strong>Authors:</strong> Yi Tay, Mostafa Dehghani, Vinh Q. Tran, Xavier Garcia, Dara Bahri, Tal Schuster, Huaixiu Steven Zheng, Neil Houlsby, Donald Metzler</p>
   <p><strong>First appeared:</strong> 2022-05-10</p>
   <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2023</p>
@@ -361,7 +373,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="perceptual22">
-  <h3 class="all-caps">Do better ImageNet classifiers assess perceptual similarity better?</h3>
+  <h3 class="all-caps">23. Do better ImageNet classifiers assess perceptual similarity better?</h3>
   <p><strong>Authors:</strong> Manoj Kumar, Neil Houlsby, Nal Kalchbrenner, Ekin Cubuk</p>
   <p><strong>First appeared:</strong> 2022-03-09</p>
   <p><strong>Venue:</strong> Transactions on Machine Learning Research (TMLR)</p>
@@ -374,7 +386,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="merger22">
-  <h3 class="all-caps">Learning to Merge Tokens in Vision Transformers</h3>
+  <h3 class="all-caps">24. Learning to Merge Tokens in Vision Transformers</h3>
   <p><strong>Authors:</strong> Cedric Renggli, André Susano Pinto, Neil Houlsby, Basil Mustafa, Joan Puigcerver, Carlos Riquelme</p>
   <p><strong>First appeared:</strong> 2022-02-24</p>
   <p><strong>Venue:</strong> arXiv</p>
@@ -387,7 +399,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="eee21">
-  <h3 class="all-caps">Sparse MoEs meet Efficient Ensembles</h3>
+  <h3 class="all-caps">25. Sparse MoEs meet Efficient Ensembles</h3>
   <p><strong>Authors:</strong> James Urquhart Allingham, Florian Wenzel, Zelda E Mariet, Basil Mustafa, Joan Puigcerver, Neil Houlsby, Ghassen Jerfel, Vincent Fortuin, Balaji Lakshminarayanan, Jasper Snoek, Dustin Tran, Carlos Riquelme Ruiz, Rodolphe Jenatton</p>
   <p><strong>First appeared:</strong> 2021-10-07</p>
   <p><strong>Venue:</strong> Transactions on Machine Learning Research (TMLR)</p>
@@ -400,10 +412,10 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="lottery21">
-  <h3 class="all-caps">The Benchmark Lottery</h3>
+  <h3 class="all-caps">26. The Benchmark Lottery</h3>
   <p><strong>Authors:</strong> Mostafa Dehghani, Yi Tay, Alexey A. Gritsenko, Zhe Zhao, Neil Houlsby, Fernando Diaz, Donald Metzler, Oriol Vinyals</p>
   <p><strong>First appeared:</strong> 2021-07-14</p>
-  <p><strong>Venue:</strong> arXiv preprint</p>
+  <p><strong>Venue:</strong> arXiv</p>
   <p><a href="https://arxiv.org/abs/2107.07002" target="_blank">Full paper</a></p>
   <div class="abstract-toggle" onclick="toggleAbstract(this)">
     <span class="arrow">&#x25BA;</span> Abstract
@@ -413,7 +425,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="calibration21">
-  <h3 class="all-caps">Revisiting the Calibration of Modern Neural Networks</h3>
+  <h3 class="all-caps">27. Revisiting the Calibration of Modern Neural Networks</h3>
   <p><strong>Authors:</strong> Matthias Minderer, Josip Djolonga, Rob Romijnders, Frances Hubis, Xiaohua Zhai, Neil Houlsby, Dustin Tran, Mario Lucic</p>
   <p><strong>First appeared:</strong> 2021-06-15</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2021</p>
@@ -426,7 +438,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="vmoe21">
-  <h3 class="all-caps">Scaling Vision with Sparse Mixture of Experts</h3>
+  <h3 class="all-caps">28. Scaling Vision with Sparse Mixture of Experts</h3>
   <p><strong>Authors:</strong> Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, André Susano Pinto, Daniel Keysers, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2021-06-10</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2021</p>
@@ -439,7 +451,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="scaling22">
-  <h3 class="all-caps">Scaling Vision Transformers</h3>
+  <h3 class="all-caps">29. Scaling Vision Transformers</h3>
   <p><strong>Authors:</strong> Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, Lucas Beyer</p>
   <p><strong>First appeared:</strong> 2021-06-08</p>
   <p><strong>Venue:</strong> Computer Vision and Pattern Recognition (CVPR), 2022</p>
@@ -452,7 +464,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="siscore21">
-  <h3 class="all-caps">SI-Score: An image dataset for fine-grained analysis of robustness to object location, rotation and size</h3>
+  <h3 class="all-caps">30. SI-Score: An image dataset for fine-grained analysis of robustness to object location, rotation and size</h3>
   <p><strong>Authors:</strong> Jessica Yung, Rob Romijnders, Alexander Kolesnikov, Lucas Beyer, Josip Djolonga, Neil Houlsby, Sylvain Gelly, Mario Lucic, Xiaohua Zhai</p>
   <p><strong>First appeared:</strong> 2021-05-09</p>
   <p><strong>Venue:</strong> International Conference on Learning Represenations RobustML Workshop, 2021</p>
@@ -465,7 +477,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="mixer21">
-  <h3 class="all-caps">MLP-Mixer: An all-MLP Architecture for Vision</h3>
+  <h3 class="all-caps">31. MLP-Mixer: An all-MLP Architecture for Vision</h3>
   <p><strong>Authors:</strong> Ilya Tolstikhin, Neil Houlsby, Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Thomas Unterthiner, Jessica Yung, Andreas Steiner, Daniel Keysers, Jakob Uszkoreit, Mario Lucic, Alexey Dosovitskiy</p>
   <p><strong>First appeared:</strong> 2021-05-04</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS)</p>
@@ -478,7 +490,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="vtabmd21">
-  <h3 class="all-caps">Comparing Transfer and Meta Learning Approaches on a Unified Few-Shot Classification Benchmark</h3>
+  <h3 class="all-caps">32. Comparing Transfer and Meta Learning Approaches on a Unified Few-Shot Classification Benchmark</h3>
   <p><strong>Authors:</strong> Vincent Dumoulin, Neil Houlsby, Utku Evci, Xiaohua Zhai, Ross Goroshin, Sylvain Gelly, Hugo Larochelle</p>
   <p><strong>First appeared:</strong> 2021-04-06</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems Datasets and Benchmarks Track, 2021</p>
@@ -491,7 +503,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="medical21">
-  <h3 class="all-caps">Supervised Transfer Learning at Scale for Medical Imaging</h3>
+  <h3 class="all-caps">33. Supervised Transfer Learning at Scale for Medical Imaging</h3>
   <p><strong>Authors:</strong> Basil Mustafa, Aaron Loh, Jan Freyberg, Patricia MacWilliams, Megan Wilson, Scott Mayer McKinney, Marcin Sieniek, Jim Winkens, Yuan Liu, Peggy Bui, Shruthi Prabhakara, Umesh Telang, Alan Karthikesalingam, Neil Houlsby, Vivek Natarajan</p>
   <p><strong>First appeared:</strong> 2021-01-14</p>
   <p><strong>Venue:</strong> arXiv</p>
@@ -504,7 +516,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="underspecification20">
-  <h3 class="all-caps">Underspecification Presents Challenges for Credibility in Modern Machine Learning</h3>
+  <h3 class="all-caps">34. Underspecification Presents Challenges for Credibility in Modern Machine Learning</h3>
   <p><strong>Authors:</strong> Alexander D'Amour, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi, Alex Beutel, Christina Chen, Jonathan Deaton, Jacob Eisenstein, Matthew D. Hoffman, Farhad Hormozdiari, Neil Houlsby, Shaobo Hou, Ghassen Jerfel, Alan Karthikesalingam, Mario Lucic, Yian Ma, Cory McLean, Diana Mincu, Akinori Mitani, Andrea Montanari, Zachary Nado, Vivek Natarajan, Christopher Nielson, Thomas F. Osborne, Rajiv Raman, Kim Ramasamy, Rory Sayres, Jessica Schrouff, Martin Seneviratne, Shannon Sequeira, Harini Suresh, Victor Veitch, Max Vladymyrov, Xuezhi Wang, Kellie Webster, Steve Yadlowsky, Taedong Yun, Xiaohua Zhai, D. Sculley</p>
   <p><strong>First appeared:</strong> 2020-11-06</p>
   <p><strong>Venue:</strong> Journal of Machine Learning Research (JMLR)</p>
@@ -517,7 +529,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="vit20">
-  <h3 class="all-caps">An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale</h3>
+  <h3 class="all-caps">35. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale</h3>
   <p><strong>Authors:</strong> Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2020-10-22</p>
   <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2021</p>
@@ -530,7 +542,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="deep20">
-  <h3 class="all-caps">Deep Ensembles for Low-Data Transfer Learning</h3>
+  <h3 class="all-caps">36. Deep Ensembles for Low-Data Transfer Learning</h3>
   <p><strong>Authors:</strong> Basil Mustafa, Carlos Riquelme, Joan Puigcerver, André Susano Pinto, Daniel Keysers, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2020-10-14</p>
   <p><strong>Venue:</strong> arXiv</p>
@@ -543,7 +555,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="wild21">
-  <h3 class="all-caps">Representation Learning From Videos In-the-Wild: An Object-Centric Approach</h3>
+  <h3 class="all-caps">37. Representation Learning From Videos In-the-Wild: An Object-Centric Approach</h3>
   <p><strong>Authors:</strong> Rob Romijnders, Aravindh Mahendran, Michael Tschannen, Josip Djolonga, Marvin Ritter, Neil Houlsby, Mario Lucic</p>
   <p><strong>First appeared:</strong> 2020-10-06</p>
   <p><strong>Venue:</strong> IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021</p>
@@ -556,7 +568,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="remote20">
-  <h3 class="all-caps">Training General Representations for Remote Sensing Using In-Domain Knowledge</h3>
+  <h3 class="all-caps">38. Training General Representations for Remote Sensing Using In-Domain Knowledge</h3>
   <p><strong>Authors:</strong> Maxim Neumann, Andre Susano Pinto, Xiaohua Zhai, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2020-09-30</p>
   <p><strong>Venue:</strong> IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2020</p>
@@ -569,7 +581,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="scalable21">
-  <h3 class="all-caps">Scalable Transfer Learning with Expert Models</h3>
+  <h3 class="all-caps">39. Scalable Transfer Learning with Expert Models</h3>
   <p><strong>Authors:</strong> Joan Puigcerver, Carlos Riquelme, Basil Mustafa, Cedric Renggli, André Susano Pinto, Sylvain Gelly, Daniel Keysers, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2020-09-28</p>
   <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2021</p>
@@ -582,7 +594,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="robustness21">
-  <h3 class="all-caps">On Robustness and Transferability of Convolutional Neural Networks</h3>
+  <h3 class="all-caps">40. On Robustness and Transferability of Convolutional Neural Networks</h3>
   <p><strong>Authors:</strong> Josip Djolonga, Jessica Yung, Michael Tschannen, Rob Romijnders, Lucas Beyer, Alexander Kolesnikov, Joan Puigcerver, Matthias Minderer, Alexander D'Amour, Dan Moldovan, Sylvain Gelly, Neil Houlsby, Xiaohua Zhai, Mario Lucic</p>
   <p><strong>First appeared:</strong> 2020-07-16</p>
   <p><strong>Venue:</strong> Computer Vision and Pattern Recognition (CVPR), 2021</p>
@@ -595,7 +607,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="shortcut20">
-  <h3 class="all-caps">Automatic Shortcut Removal for Self-Supervised Representation Learning</h3>
+  <h3 class="all-caps">41. Automatic Shortcut Removal for Self-Supervised Representation Learning</h3>
   <p><strong>Authors:</strong> Matthias Minderer, Olivier Bachem, Neil Houlsby, Michael Tschannen</p>
   <p><strong>First appeared:</strong> 2020-02-20</p>
   <p><strong>Venue:</strong> International Conference on Machine Learning (ICML), 2020</p>
@@ -608,7 +620,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="bigtransfer19">
-  <h3 class="all-caps">Big Transfer (BiT): General Visual Representation Learning</h3>
+  <h3 class="all-caps">42. Big Transfer (BiT): General Visual Representation Learning</h3>
   <p><strong>Authors:</strong> Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2019-12-24</p>
   <p><strong>Venue:</strong> European Conference on Computer Vision (ECCV), 2020</p>
@@ -621,7 +633,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="vivi20">
-  <h3 class="all-caps">Self-Supervised Learning of Video-Induced Visual Invariances</h3>
+  <h3 class="all-caps">43. Self-Supervised Learning of Video-Induced Visual Invariances</h3>
   <p><strong>Authors:</strong> Michael Tschannen, Josip Djolonga, Marvin Ritter, Aravindh Mahendran, Xiaohua Zhai, Neil Houlsby, Sylvain Gelly, Mario Lucic</p>
   <p><strong>First appeared:</strong> 2019-12-05</p>
   <p><strong>Venue:</strong> Computer Vision and Pattern Recognition (CVPR), 2020</p>
@@ -634,7 +646,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="vtab19">
-  <h3 class="all-caps">A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark</h3>
+  <h3 class="all-caps">44. A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark</h3>
   <p><strong>Authors:</strong> Xiaohua Zhai, Joan Puigcerver, Alexander Kolesnikov, Pierre Ruyssen, Carlos Riquelme, Mario Lucic, Josip Djolonga, Andre Susano Pinto, Maxim Neumann, Alexey Dosovitskiy, Lucas Beyer, Olivier Bachem, Michael Tschannen, Marcin Michalski, Olivier Bousquet, Sylvain Gelly, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2019-10-01</p>
   <p><strong>Venue:</strong> arXiv</p>
@@ -647,7 +659,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="parameter19">
-  <h3 class="all-caps">Parameter-Efficient Transfer Learning for NLP</h3>
+  <h3 class="all-caps">45. Parameter-Efficient Transfer Learning for NLP</h3>
   <p><strong>Authors:</strong> Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly</p>
   <p><strong>First appeared:</strong> 2019-02-02</p>
   <p><strong>Venue:</strong> International Conference on Machine Learning (ICML), 2019</p>
@@ -661,7 +673,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="graph18">
-  <h3 class="all-caps">Neural Architecture Search Over a Graph Search Space</h3>
+  <h3 class="all-caps">46. Neural Architecture Search Over a Graph Search Space</h3>
   <p><strong>Authors:</strong> Stanisław Jastrzębski, Quentin de Laroussilhe, Mingxing Tan, Xiao Ma, Neil Houlsby, Andrea Gesmundo</p>
   <p><strong>First appeared:</strong> 2018-12-27</p>
   <p><strong>Venue:</strong> arXiv</p>
@@ -674,7 +686,7 @@ I work in machine learning and artificial intelligence, with a focus on vision-l
 <hr>
         
         <article id="ssgan19">
-  <h3 class="all-caps">Self-Supervised GANs via Auxiliary Rotation Loss</h3>
+  <h3 class="all-caps">47. Self-Supervised GANs via Auxiliary Rotation Loss</h3>
   <p><strong>Authors:</strong> Ting Chen, Xiaohua Zhai, Marvin Ritter, Mario Lucic, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2018-11-27</p>
   <p><strong>Venue:</strong> Computer Vision and Pattern Recognition (CVPR), 2019</p>
@@ -698,7 +710,7 @@ learning can be scaled to attain an FID of 23.4 on unconditional ImageNet genera
 <hr>
         
         <article id="selfmod19">
-  <h3 class="all-caps">On Self Modulation for Generative Adversarial Networks</h3>
+  <h3 class="all-caps">48. On Self Modulation for Generative Adversarial Networks</h3>
   <p><strong>Authors:</strong> Ting Chen, Mario Lucic, Neil Houlsby, Sylvain Gelly</p>
   <p><strong>First appeared:</strong> 2018-10-02</p>
   <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2019</p>
@@ -711,7 +723,7 @@ learning can be scaled to attain an FID of 23.4 on unconditional ImageNet genera
 <hr>
         
         <article id="taml18">
-  <h3 class="all-caps">Transfer Learning with Neural AutoML</h3>
+  <h3 class="all-caps">49. Transfer Learning with Neural AutoML</h3>
   <p><strong>Authors:</strong> Catherine Wong, Neil Houlsby, Yifeng Lu, Andrea Gesmundo</p>
   <p><strong>First appeared:</strong> 2018-03-07</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2018</p>
@@ -724,7 +736,7 @@ learning can be scaled to attain an FID of 23.4 on unconditional ImageNet genera
 <hr>
         
         <article id="aqa18">
-  <h3 class="all-caps">Ask the Right Questions: Active Question Reformulation with Reinforcement Learning</h3>
+  <h3 class="all-caps">50. Ask the Right Questions: Active Question Reformulation with Reinforcement Learning</h3>
   <p><strong>Authors:</strong> Christian Buck, Jannis Bulian, Massimiliano Ciaramita, Wojciech Gajewski, Andrea Gesmundo, Neil Houlsby, Wei Wang</p>
   <p><strong>First appeared:</strong> 2017-05-22</p>
   <p><strong>Venue:</strong> International Conference on Learning Representations (ICLR), 2018 [Oral]</p>
@@ -740,7 +752,7 @@ We also analyze the language that the agent has learned while interacting with t
 <hr>
         
         <article id="filtering14">
-  <h3 class="all-caps">A Filtering Approach to Stochastic Variational Inference</h3>
+  <h3 class="all-caps">51. A Filtering Approach to Stochastic Variational Inference</h3>
   <p><strong>Authors:</strong> Neil Houlsby, David Blei</p>
   <p><strong>First appeared:</strong> 2014-12-08</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2014</p>
@@ -753,7 +765,7 @@ We also analyze the language that the agent has learned while interacting with t
 <hr>
         
         <article id="phd14">
-  <h3 class="all-caps">Efficient Bayesian Active Learning and Matrix Modelling</h3>
+  <h3 class="all-caps">52. Efficient Bayesian Active Learning and Matrix Modelling</h3>
   <p><strong>Authors:</strong> Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2014-11-11</p>
   <p><strong>Venue:</strong> Doctor of Philosophy (PhD), University of Cambridge</p>
@@ -766,7 +778,7 @@ We also analyze the language that the agent has learned while interacting with t
 <hr>
         
         <article id="coldstart14">
-  <h3 class="all-caps">Cold-start Active Learning with Robust Ordinal Matrix Factorization</h3>
+  <h3 class="all-caps">53. Cold-start Active Learning with Robust Ordinal Matrix Factorization</h3>
   <p><strong>Authors:</strong> Cold-start Active Learning with Robust Ordinal Matrix Factorization</p>
   <p><strong>First appeared:</strong> 2014-06-21</p>
   <p><strong>Venue:</strong> International Conference on Machine Learning (ICML), 2014</p>
@@ -779,7 +791,7 @@ We also analyze the language that the agent has learned while interacting with t
 <hr>
         
         <article id="mnar14">
-  <h3 class="all-caps">Probabilistic Matrix Factorization with Non-random Missing Data</h3>
+  <h3 class="all-caps">54. Probabilistic Matrix Factorization with Non-random Missing Data</h3>
   <p><strong>Authors:</strong> José Miguel Hernández-Lobato, Neil Houlsby, Zoubin Ghahramani</p>
   <p><strong>First appeared:</strong> 2014-06-21</p>
   <p><strong>Venue:</strong> International Conference on Machine Learning (ICML)</p>
@@ -792,7 +804,7 @@ We also analyze the language that the agent has learned while interacting with t
 <hr>
         
         <article id="svi14">
-  <h3 class="all-caps">Stochastic Inference for Scalable Probabilistic Modeling of Binary Matrices</h3>
+  <h3 class="all-caps">55. Stochastic Inference for Scalable Probabilistic Modeling of Binary Matrices</h3>
   <p><strong>Authors:</strong> José Miguel Hernández-Lobato, Neil Houlsby, Zoubin Ghahramani</p>
   <p><strong>First appeared:</strong> 2014-06-21</p>
   <p><strong>Venue:</strong> International Conference on Machine Learning (ICML), 2021</p>
@@ -805,7 +817,7 @@ We also analyze the language that the agent has learned while interacting with t
 <hr>
         
         <article id="geotechnique13">
-  <h3 class="all-caps">Statistical Fitting of Undrained Strength Data</h3>
+  <h3 class="all-caps">56. Statistical Fitting of Undrained Strength Data</h3>
   <p><strong>Authors:</strong> Neil Houlsby, Guy Houlsby</p>
   <p><strong>First appeared:</strong> 2013-11-01</p>
   <p><strong>Venue:</strong> Géotechnique</p>
@@ -818,7 +830,7 @@ We also analyze the language that the agent has learned while interacting with t
 <hr>
         
         <article id="cognitive13">
-  <h3 class="all-caps">Cognitive Tomography Reveals Complex Task-Independent Mental Representations</h3>
+  <h3 class="all-caps">57. Cognitive Tomography Reveals Complex Task-Independent Mental Representations</h3>
   <p><strong>Authors:</strong> Neil Houlsby, Ferenc Huszár, Mohammad Ghassemi, Gergő Orbán, Daniel Wolpert, Máté Lengyel</p>
   <p><strong>First appeared:</strong> 2013-10-24</p>
   <p><strong>Venue:</strong> Current Biology</p>
@@ -831,7 +843,7 @@ We also analyze the language that the agent has learned while interacting with t
 <hr>
         
         <article id="entity14">
-  <h3 class="all-caps">A Scalable Gibbs Sampler for Probabilistic Entity Linking</h3>
+  <h3 class="all-caps">58. A Scalable Gibbs Sampler for Probabilistic Entity Linking</h3>
   <p><strong>Authors:</strong> Neil Houlsby, Massimiliano Ciaramita</p>
   <p><strong>First appeared:</strong> 2013-09-02</p>
   <p><strong>Venue:</strong> European Conference on Information Retrieval (ECIR), 2014</p>
@@ -850,7 +862,7 @@ entity-linking on the Aida-CoNLL dataset.</p>
 <hr>
         
         <article id="visualization13">
-  <h3 class="all-caps">Active learning for Interactive Visualization</h3>
+  <h3 class="all-caps">59. Active learning for Interactive Visualization</h3>
   <p><strong>Authors:</strong> Tomoharu Iwata, Neil Houlsby, Zoubin Ghahramani</p>
   <p><strong>First appeared:</strong> 2013-05-29</p>
   <p><strong>Venue:</strong> International Conference on AI and Statistics (AISTATS), 2013</p>
@@ -863,7 +875,7 @@ entity-linking on the Aida-CoNLL dataset.</p>
 <hr>
         
         <article id="experimental13">
-  <h3 class="all-caps">Experimental Adaptive Bayesian Tomography</h3>
+  <h3 class="all-caps">60. Experimental Adaptive Bayesian Tomography</h3>
   <p><strong>Authors:</strong> Konstantin Kravtsov, Stanislav Straupe, Igor Radchenko, Gleb Struchalin, Neil Houlsby, Sergey Kulik</p>
   <p><strong>First appeared:</strong> 2013-03-07</p>
   <p><strong>Venue:</strong> Phyiscal Review A</p>
@@ -876,7 +888,7 @@ entity-linking on the Aida-CoNLL dataset.</p>
 <hr>
         
         <article id="preference12">
-  <h3 class="all-caps">Collaborative Gaussian Processes for Preference Learning</h3>
+  <h3 class="all-caps">61. Collaborative Gaussian Processes for Preference Learning</h3>
   <p><strong>Authors:</strong> Neil Houlsby, Ferenc Huszár, Jose M. Hernández-lobato, Zoubin Ghahramani</p>
   <p><strong>First appeared:</strong> 2012-12-03</p>
   <p><strong>Venue:</strong> Neural Information Processing Systems (NeurIPS), 2012</p>
@@ -889,7 +901,7 @@ entity-linking on the Aida-CoNLL dataset.</p>
 <hr>
         
         <article id="quantum12">
-  <h3 class="all-caps">Adaptive Bayesian Quantum Tomography</h3>
+  <h3 class="all-caps">62. Adaptive Bayesian Quantum Tomography</h3>
   <p><strong>Authors:</strong> Ferenc Huszár, Neil Houlsby</p>
   <p><strong>First appeared:</strong> 2012-07-05</p>
   <p><strong>Venue:</strong> Physical Review A</p>
@@ -902,7 +914,7 @@ entity-linking on the Aida-CoNLL dataset.</p>
 <hr>
         
         <article id="bald11">
-  <h3 class="all-caps">Bayesian Active Learning for Classification and Preference Learning</h3>
+  <h3 class="all-caps">63. Bayesian Active Learning for Classification and Preference Learning</h3>
   <p><strong>Authors:</strong> Neil Houlsby, Ferenc Huszár, Zoubin Ghahramani, Máté Lengyel</p>
   <p><strong>First appeared:</strong> 2011-12-24</p>
   <p><strong>Venue:</strong> arXiv</p>
@@ -918,6 +930,17 @@ entity-linking on the Aida-CoNLL dataset.</p>
     </section>
   </main>
 
+    <script>
+    function copyToClipboard(text) {
+      var dummy = document.createElement("textarea");
+      document.body.appendChild(dummy);
+      dummy.value = text;
+      dummy.select();
+      document.execCommand("copy");
+      document.body.removeChild(dummy);
+      alert("`" + text + "`" + " copied to clipboard.");
+    }
+  </script>
 
 </body>
 
