@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/graph.md
 date: 2018-12-27
 authors: 'Stanisław Jastrzębski, Quentin de Laroussilhe, Mingxing Tan, Xiao Ma, Neil Houlsby, Andrea Gesmundo'
-venue: 'arXiv'
+venue: 'arXiv, 2018'
 paperurl: 'https://arxiv.org/abs/1812.10666'
 ---
 

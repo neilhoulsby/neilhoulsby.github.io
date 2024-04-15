@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/gemini23
 date: 2023-12-19
 authors: 'Gemini Team Google'
-venue: 'arXiv'
+venue: 'arXiv, 2023'
 paperurl: 'https://arxiv.org/abs/2312.11805'
 ---
 

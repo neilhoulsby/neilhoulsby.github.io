@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/transcending22
 date: 2022-10-20
 authors: 'Yi Tay, Jason Wei, Hyung Won Chung, Vinh Q. Tran, David R. So, Siamak Shakeri, Xavier Garcia, Huaixiu Steven Zheng, Jinfeng Rao, Aakanksha Chowdhery, Denny Zhou, Donald Metzler, Slav Petrov, Neil Houlsby, Quoc V. Le, Mostafa Dehghani'
-venue: 'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023'
 paperurl: 'https://arxiv.org/abs/2010.02808'
 ---
 

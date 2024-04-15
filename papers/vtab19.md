@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/vtab19
 date: 2019-10-01
 authors: 'Xiaohua Zhai, Joan Puigcerver, Alexander Kolesnikov, Pierre Ruyssen, Carlos Riquelme, Mario Lucic, Josip Djolonga, Andre Susano Pinto, Maxim Neumann, Alexey Dosovitskiy, Lucas Beyer, Olivier Bachem, Michael Tschannen, Marcin Michalski, Olivier Bousquet, Sylvain Gelly, Neil Houlsby'
-venue: 'arXiv'
+venue: 'arXiv, 2019'
 paperurl: 'https://arxiv.org/abs/1910.04867'
 ---
 

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/merger22.md
 date: 2022-02-24
 authors: 'Cedric Renggli, André Susano Pinto, Neil Houlsby, Basil Mustafa, Joan Puigcerver, Carlos Riquelme'
-venue: 'arXiv'
+venue: 'arXiv, 2022'
 paperurl: 'https://arxiv.org/abs/2202.12015'
 ---
 

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/bald11
 date: 2011-12-24
 authors: 'Neil Houlsby, Ferenc Huszár, Zoubin Ghahramani, Máté Lengyel'
-venue: 'arXiv'
+venue: 'arXiv, 2011'
 paperurl: 'https://arxiv.org/abs/1112.5745'
 ---
 

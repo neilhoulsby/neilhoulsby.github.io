@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/medical21
 date: 2021-01-14
 authors: 'Basil Mustafa, Aaron Loh, Jan Freyberg, Patricia MacWilliams, Megan Wilson, Scott Mayer McKinney, Marcin Sieniek, Jim Winkens, Yuan Liu, Peggy Bui, Shruthi Prabhakara, Umesh Telang, Alan Karthikesalingam, Neil Houlsby, Vivek Natarajan'
-venue: 'arXiv'
+venue: 'arXiv, 2021'
 paperurl: 'https://arxiv.org/abs/2101.05913'
 ---
 

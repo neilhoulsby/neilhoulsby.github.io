@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/deep20
 date: 2020-10-14
 authors: 'Basil Mustafa, Carlos Riquelme, Joan Puigcerver, André Susano Pinto, Daniel Keysers, Neil Houlsby'
-venue: 'arXiv'
+venue: 'arXiv, 2020'
 paperurl: 'https://arxiv.org/abs/2010.06866'
 ---
 

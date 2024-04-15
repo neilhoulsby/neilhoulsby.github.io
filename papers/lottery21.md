@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/lottery21
 date: 2021-07-14
 authors: 'Mostafa Dehghani, Yi Tay, Alexey A. Gritsenko, Zhe Zhao, Neil Houlsby, Fernando Diaz, Donald Metzler, Oriol Vinyals'
-venue: 'arXiv'
+venue: 'arXiv, 2021'
 paperurl: 'https://arxiv.org/abs/2107.07002'
 ---
 
