@@ -1,6 +1,4 @@
-I am a Senior Staff Research Scientist in the Google Deepmind (formerly, Google Brain), based in Zürich. 
-I work in machine learning and artificial intelligence, with a focus on vision-language models, scalability, computer vision, pre-training, and transfer learning.
+I am a Senior Staff Research Scientist and manager in the Google Deepmind (previously, Google Brain), in Zürich. 
+I work in machine learning and artificial intelligence, with a focus on vision-language models (VLMs), scalable pre-training, sparsity, modularity, and task adaptation.
 
-Prior to Google, I received my PhD from the Cambridge Computational and Biological Learning lab, supervised by Zoubin Ghahramani and Máté Lengyel. My areas of study were Bayesian ML, active learning, and cognitive science.
-
-I am a hiring manager in Google Deepmind EMEA, if you have a strong background in machine learning and/or computer vision, feel free to reach out.
+Prior to Google, I received my PhD from the Cambridge Computational and Biological Learning lab, supervised by Prof. Zoubin Ghahramani and Prof. Máté Lengyel. My areas of study were Bayesian ML, active learning, and cognitive science.

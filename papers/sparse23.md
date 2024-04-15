@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/sparse23
 date: 2023-09-15
 authors: 'Elias Frantar, Carlos Riquelme, Neil Houlsby, Dan Alistarh, Utku Evci'
-venue: 'arXiv'
+venue: 'International Conference on Learning Representations (ICLR), 2024 [spotlight]'
 paperurl: 'https://arxiv.org/abs/2309.08520'
 ---
 
