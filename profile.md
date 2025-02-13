@@ -1,3 +1,3 @@
-Senior Staff Research Scientist at Google DeepMind.
+Member of Technical Staff at Anthropic, based in the Zurich site.
 
-Leads a Computer Vision group located in Zürich and Amsterdam.
+AI researcher, work on vision and language models, neural architectures, and scaling.
